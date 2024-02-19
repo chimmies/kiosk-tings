@@ -11,6 +11,11 @@
 		F72D5DB92B82FECE005488C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72D5DB82B82FECE005488C8 /* ContentView.swift */; };
 		F72D5DBB2B82FECF005488C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F72D5DBA2B82FECF005488C8 /* Assets.xcassets */; };
 		F72D5DBE2B82FECF005488C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F72D5DBD2B82FECF005488C8 /* Preview Assets.xcassets */; };
+		F72D5DC52B82FF00005488C8 /* DisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72D5DC42B82FF00005488C8 /* DisplayView.swift */; };
+		F72D5DC72B82FF15005488C8 /* KeypadButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72D5DC62B82FF15005488C8 /* KeypadButton.swift */; };
+		F72D5DC92B82FF2D005488C8 /* KeypadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72D5DC82B82FF2D005488C8 /* KeypadView.swift */; };
+		F72D5DCB2B82FF48005488C8 /* KeypadViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72D5DCA2B82FF48005488C8 /* KeypadViewModel.swift */; };
+		F72D5DCD2B8300B8005488C8 /* KeypadButtonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72D5DCC2B8300B8005488C8 /* KeypadButtonModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		F72D5DB82B82FECE005488C8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F72D5DBA2B82FECF005488C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F72D5DBD2B82FECF005488C8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F72D5DC42B82FF00005488C8 /* DisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayView.swift; sourceTree = "<group>"; };
+		F72D5DC62B82FF15005488C8 /* KeypadButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeypadButton.swift; sourceTree = "<group>"; };
+		F72D5DC82B82FF2D005488C8 /* KeypadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeypadView.swift; sourceTree = "<group>"; };
+		F72D5DCA2B82FF48005488C8 /* KeypadViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeypadViewModel.swift; sourceTree = "<group>"; };
+		F72D5DCC2B8300B8005488C8 /* KeypadButtonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeypadButtonModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,11 @@
 			children = (
 				F72D5DB62B82FECE005488C8 /* kiosk_keypadApp.swift */,
 				F72D5DB82B82FECE005488C8 /* ContentView.swift */,
+				F72D5DC42B82FF00005488C8 /* DisplayView.swift */,
+				F72D5DC62B82FF15005488C8 /* KeypadButton.swift */,
+				F72D5DC82B82FF2D005488C8 /* KeypadView.swift */,
+				F72D5DCC2B8300B8005488C8 /* KeypadButtonModel.swift */,
+				F72D5DCA2B82FF48005488C8 /* KeypadViewModel.swift */,
 				F72D5DBA2B82FECF005488C8 /* Assets.xcassets */,
 				F72D5DBC2B82FECF005488C8 /* Preview Content */,
 			);
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F72D5DC52B82FF00005488C8 /* DisplayView.swift in Sources */,
+				F72D5DC92B82FF2D005488C8 /* KeypadView.swift in Sources */,
+				F72D5DCB2B82FF48005488C8 /* KeypadViewModel.swift in Sources */,
 				F72D5DB92B82FECE005488C8 /* ContentView.swift in Sources */,
+				F72D5DCD2B8300B8005488C8 /* KeypadButtonModel.swift in Sources */,
 				F72D5DB72B82FECE005488C8 /* kiosk_keypadApp.swift in Sources */,
+				F72D5DC72B82FF15005488C8 /* KeypadButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
